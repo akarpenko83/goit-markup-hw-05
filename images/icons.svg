@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+<defs>
 <symbol id="icon-envelope" viewBox="0 0 43 32">
 <path d="M38.667 0H4C1.794 0 0 1.794 0 4v24c0 2.206 1.794 4 4 4h34.667c2.206 0 4-1.794 4-4V4c0-2.206-1.794-4-4-4zm0 2.667c.181 0 .353.038.511.103L21.334 18.236 3.49 2.77a1.32 1.32 0 0 1 .511-.103h34.667zm0 26.666H4A1.334 1.334 0 0 1 2.667 28V5.587L20.46 21.008a1.335 1.335 0 0 0 1.748 0L40.001 5.587V28c0 .736-.598 1.333-1.333 1.333z"/>
 </symbol>
@@ -58,4 +59,10 @@ style="fill:var(--color4, #afb1b8)"/>
 style="fill:var(--color4, #afb1b8)"/>
 <path fill="#afb1b8" d="M20.696 31.781 0 26.702V8.836l20.696 5.076V31.78z" 
 style="fill:var(--color4, #afb1b8)"/>
-<path fill="#afb1b8" d="m9.948 1.686 18.104 4.44-7.699 6.649L2.247 8.333l7.702-6.647zM9.605.545 0 8.837l20.696 5.076 9.603-8.292L9.605.545zM21.861 30.776l8.438-7.287-8.438-2.071v9.358z" style="fill:var(--color4, #afb1b8)"/></symbol></defs></svg>
+<path fill="#afb1b8" d="m9.948 1.686 18.104 4.44-7.699 6.649L2.247 8.333l7.702-6.647zM9.605.545 0 8.837l20.696 5.076 9.603-8.292L9.605.545zM21.861 30.776l8.438-7.287-8.438-2.071v9.358z" style="fill:var(--color4, #afb1b8)"/>
+</symbol>
+<symbol id="icon-cross-1" viewBox="0 0 32 32">
+<path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z"></path>
+</symbol>
+</defs>
+</svg>
