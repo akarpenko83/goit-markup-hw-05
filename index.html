@@ -109,15 +109,23 @@
             Ефективні рішення для вашого бізнесу
           </h1>
           <button
+            data-modal-open
             type="button"
             class="hero-btn btn"
           >
             Замовити послугу
           </button>
         </div>
-        <div class="backdrop">
+        <div
+          data-modal
+          class="backdrop is-hidden"
+        >
           <div class="modal">
-            <div class="close-btn">
+            <button
+              data-modal-close
+              type="button"
+              class="close-btn"
+            >
               <svg
                 class="icon cross"
                 width="11"
@@ -127,7 +135,7 @@
                   href="./images/icons.svg#icon-cross-1"
                 ></use>
               </svg>
-            </div>
+            </button>
           </div>
         </div>
       </section>
@@ -856,5 +864,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
