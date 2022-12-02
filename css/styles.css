@@ -126,9 +126,17 @@ img {
 /* ---------------------------- header ------------------ */
 .header {
   border-bottom: 1px solid #ececec;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 3; */
+  background-color: var(--bg-primary-color);
 }
 .header > .container {
   display: flex;
+
   align-items: center;
 }
 .logo {
@@ -199,6 +207,7 @@ img {
 /* ----------------------------section Hero */
 
 .section.hero {
+  /* margin-top: 80px; */
   background-color: var(--bg-footer-color);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -218,6 +227,8 @@ img {
 }
 
 .hero.title {
+  /* position: sticky;
+  top: 80px; */
   margin-bottom: 30px;
   max-width: 696px;
   font-weight: 900;
@@ -252,7 +263,8 @@ img {
   width: 100%;
   background-color: rgb(0, 0, 0, 0.2);
   transition: opacity 250ms
-    cubic-bezier(var(--cubic));
+      cubic-bezier(var(--cubic)),
+    visibility 250ms cubic-bezier(var(--cubic));
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.5);
